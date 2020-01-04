@@ -1,0 +1,80 @@
+html, body { margin:0px; padding:0px; overflow-x: hidden; overflow-y: scroll; width: 100%;
+background-image: url("https://i.pinimg.com/originals/e4/5d/b3/e45db325f845c2c4877143e58b9c59aa.jpg"); background-repeat: no-repeat; height: 100%; background-size: cover; background-attachment: fixed;}
+
+header {
+ background-color: rgba(40, 44, 43, 0.6);
+  margin: 0px 0px 10px -10px;
+  border-size: 0px;
+  
+  padding:10px 10px 10px 10px;
+  width: 100%;
+  
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 1em;
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+
+
+form {
+ width: 100%;
+ 
+ background-color: rgba(166, 69, 18, 0.8);
+ border-size: 0px;
+ margin: -10px 0px 0px 0px;
+ padding: 40px 5px 100px 10px;
+ color: white;
+  font-size: 1.2rem;
+  font-family: 'Sulphur Point' , sans-serif;
+
+}
+
+footer {
+font-size: 1.5em;
+color: white;
+background-color: rgba(40, 44, 43, 0.9);
+text-align: center;
+  font-family: 'Oswald' sans-serif;
+padding-top: 10px;}
+  
+
+.fa-twitter {
+ color: white;
+ font-family: 'Oswald' sans-serif;
+ padding: 20px;
+}
+
+#dropdown, #dropdown2 {
+ width: 200px;
+ height: 30px;
+}
+
+#name, #email, #number {
+ height: 25px;
+}
+
+legend {
+ font-size: 1.2rem;
+}
+#submit {
+ width: 300px;
+ height: 30px;
+ color: white;
+ background-color: rgba(40, 44, 43, 0.6);
+ font-size: 1.2rem;
+
+
+
+
+
+}
+
+#submission {
+  text-align: center;
+  padding-right: 25px;
+  
+}
+

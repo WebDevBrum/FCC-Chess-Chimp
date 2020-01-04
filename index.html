@@ -1,0 +1,63 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Baskervville|Oswald|Sulphur+Point|Ubuntu&display=swap" rel="stylesheet">
+
+<!-- need to utilise label tags not p -->
+<body>
+  <header>
+    <h1 id="title">Chess Chimp Magazine Survey</h1>
+    <p id="description">Thank you for helping us to improve our platorm!</p>
+  </header>
+  <form id="survey-form">
+    <label for="name" id="name-label"> Name</label><br>
+   <br> <input type="text" name="name" id="name" placeholder="name" required size='35'><br>
+<br><label for="email" id="email-label"> Email</label><br>
+    <br><input type="email" name="email" id="email" placeholder="email" required size='35'><br>
+<br><label for="number" id="number-label" >Age</label><br>
+   <br> <input type="number" name="age" id="number" placeholder="age" min="0" max="110" size='35'><br>
+ <br>
+    <label for"level">How would you describe your Chess Level?</label><br>
+    <br><select name="level" id="dropdown" >
+    <option value="" selected>Choose your Level</option>
+      <option value="novice" >Novice</option>
+      <option value="intermediate">Intermediate</option>
+      <option value="clubPlayer">Club Player</option>
+      <option value="leaguePlayer">League Player</option>
+      <option value="Grandmaster">Grand Master</option>
+    </select><br>
+      <br>
+ <legend>Would you recommend Chess Chimp <br>to a friend?</legend><br>
+    <input type="radio" name="reccomend" value="definitley"><label for="">Definitely</label><br>
+    <input type="radio" name="reccomend" value="maybe"><label for="">Maybe</label><br>
+    <input type="radio" name="reccomend" value="notsure"><label for="">Not Sure</label><br>
+<br> <label for="">What is your favorite feature of Chess Chimp?</label><br>
+    <br><select name="favourite" id='dropdown2'>
+    <option value="" selected>Choose your favourite feature</option>
+      <option value="news">News</option>
+      <option value="articles">Articles</option>
+      <option value="puzzles">Puzzles</option>
+      <option value="letters">Letters</option>
+    </select>
+    <br>
+   <br><legend>How can we improve?</legend><br>
+    <input type="checkbox" name="improve1" value="challenge"><label for="">Challenges</label><br>
+    <input type="checkbox" name="improve2" value="community"><label for="">Community</label><br>
+    <input type="checkbox" name="improve3" value="prescence"><label for="">Online Presence</label><br>
+    <input type="checkbox" name="improve4" value="support"><label for="">Support</label><br>
+    <input type="checkbox" name="improve5" value="styling"><label for="">Styling</label><br>
+    <input type="checkbox" name="improve6" value="features"><label for="">Features</label><br>
+    <p>Do you have any further comments?</p>
+    <textarea rows="5" cols="50"></textarea>
+    <br>
+    <br><p id="submission"> <input type="submit" value="Submit - Thank you!" id="submit"></p>
+    
+  </form>
+  
+  <footer>This website was created by <a href="https://twitter.com/theDevlopingDev"  class= "fa fa-twitter" target=_blank > theDevelopingDeveloper</a> <footer>
+</body>
+
+<!-- <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br> -->
